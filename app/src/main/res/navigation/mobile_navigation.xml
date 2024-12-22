@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.gammy.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_games"
+        android:name="com.gammy.ui.games.GameFragment"
+        android:label="@string/menu_games"
+        tools:layout="@layout/fragment_games" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.gammy.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <!-- Game Creation Fragment -->
+    <fragment
+        android:id="@+id/gameCreationFragment"
+        android:name="com.gammy.ui.games.GameCreationFragment"
+        android:label="Create Game"
+        tools:layout="@layout/fragment_game_creation" />
+</navigation>
