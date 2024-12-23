@@ -30,6 +30,12 @@
         tools:layout="@layout/fragment_game_tracker" />
 
     <fragment
+        android:id="@+id/nav_players"
+        android:name="com.gammy.ui.player.PlayersFragment"
+        android:label="Players"
+        tools:layout="@layout/fragment_players" />
+
+    <fragment
         android:id="@+id/gameCreationFragment"
         android:name="com.gammy.ui.games.GameCreationFragment"
         android:label="Create Game"

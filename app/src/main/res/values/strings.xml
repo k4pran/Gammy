@@ -8,9 +8,10 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_games">Games Manager</string>
+    <string name="menu_games">Game Manager</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_game_tracker">Game Tracker</string>
+    <string name="menu_players">Players</string>
     <string name="add_game">Add Game</string>
     <string name="create_new_game">Create a New Game</string>
     <string name="text_game_name">Game</string>

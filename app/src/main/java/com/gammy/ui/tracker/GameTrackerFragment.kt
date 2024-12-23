@@ -45,7 +45,7 @@ class GameTrackerFragment : Fragment() {
         recyclerView.adapter = gameAdaptor
 
         gameViewModel.games.observe(viewLifecycleOwner) { games ->
-            Log.i(TAG, "Games updated: ${games}")
+            Log.i(TAG, "Games updated: $games")
             gameAdaptor.updateGames(games)
         }
     }
