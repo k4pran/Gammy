@@ -13,6 +13,10 @@
             android:icon="@drawable/ic_menu_games"
             android:title="@string/menu_games" />
         <item
+            android:id="@+id/nav_game_tracker"
+            android:icon="@drawable/ic_menu_game_tracker"
+            android:title="@string/menu_game_tracker" />
+        <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />

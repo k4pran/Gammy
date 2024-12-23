@@ -23,7 +23,12 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
-    <!-- Game Creation Fragment -->
+    <fragment
+        android:id="@+id/nav_game_tracker"
+        android:name="com.gammy.ui.tracker.GameTrackerFragment"
+        android:label="Game Tracker"
+        tools:layout="@layout/fragment_game_tracker" />
+
     <fragment
         android:id="@+id/gameCreationFragment"
         android:name="com.gammy.ui.games.GameCreationFragment"
